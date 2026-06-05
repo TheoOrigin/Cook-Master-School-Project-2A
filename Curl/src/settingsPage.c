@@ -118,7 +118,7 @@ void save_api(const char *name, const char *method, const char *url, const char 
 
     const char *server = "sportplus.ddns.net";
     const char *user = "cookmaster_api_request_dev";
-    const char *password = "QGACsfzEvuel0S0b";
+    const char *password = "admin123";
     const char *database = "cookmaster_api_request_dev";
 
     conn = mysql_init(NULL);

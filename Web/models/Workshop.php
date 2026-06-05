@@ -221,7 +221,7 @@ class workshop extends Model
 
         $locations = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-        //récupére les horaires de chaque location en passant par la table opens_at
+        //get the opening hours of each location via the opens_at table
         foreach ($locations as $key => $location) {
             $sql = "SELECT id_opening_hours FROM opens_at WHERE id_location = :id_location";
 
